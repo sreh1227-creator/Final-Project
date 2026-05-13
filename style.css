@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   background-color: #f0e6ff;
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+   border-top: 12px solid #290066;
+   border-bottom: 12px solid #290066;
+}
+
+h1, h2, h3, h4{
+   font-family: "Shadows Into Light", cursive;
+}
+
+header{
+   text-align: center;
+}
+
+.logo{
+   margin: 0 auto;
+   display:block;
+   padding-bottom: 10px;
+}
+
+h1{
+  color: #b380ff;
+}
+
+h2{
+  color: #b380ff;
+}
+
+h3{
+  color: #b380ff;
+}
+
+h4{
+  color: #b380ff;
+}
+
+hr{
+  height: 3px;
+  width: auto;
+  background-color: #b380ff;
+}
+
+nav{
+  text-align: center;
+   background-color: #b380ff;
+   border-top: 3px solid  black;
+   border-bottom: 3px solid  black;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav at{
+  ext-decoration: none;
+}
+
+nav a:link{
+  color: #e0ccff;
+}
+
+nav a:visited{
+  color: #f0e6ff;
+}
+
+nav a:hover{
+  color: #6600ff;
+}
+nav a:active{
+  color: black;
+}
+
+.home-hero{
+   background-image: url(image/portsundries-sunset-7790621.jpg);
+   height: 300px;
+   background-size: cover;
+   background-position: top center;
+}
+
+.home-hero h1{
+   color: white;
+   text-shadow: 2px 2px 2px black;
+   text-align: center;
+   padding-top: 115px;
+   font-size: 3em;
+   font-weight: normal;
+   margin: 0;
+}
+
+/*main*/
+main{
+   margin-top: 15px; 
+   margin-right: auto; 
+   margin-bottom: 20px; 
+   margin-left: auto;
+   padding-top: 20px;
+   max-width: 800px;
+}
+
+.float-right{
+   float: right;
+   max-width: 50%;
+   height: auto;
+   border: 5px inset #b380ff;
+   border-radius: 10px;
+   margin: 15px;
+}
+
+footer{
+   text-align: center;
+   clear: both;
+   margin-right: auto;
+   margin-left: auto;
+   max-width: 800px;
+   text-align: left;
+   padding-bottom: 15px;
+}
+
+.footer{
+   text-align: center;
+}
+
+.fa{
+  padding-right: 5px;
+}
+
+.fa-camera-retro{
+  font-size: 40px;
+  color: #b380ff;
+}
+
+.fa-camera{
+  font-size: 60px;
+  color: #b380ff;
+  padding-left: 40px;
+}
+
+.fa-user-circle{
+  font-size: 40px;
+  color: #b380ff;
+}
+
+.fa-gamepad{
+  font-size: 40px;
+  color: #b380ff;
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  color: #b380ff;
+  border-radius: 5px;
+}
+
+canvas{
+  background-image: url(image/kaskar5z7-sea-7331682.jpg);
+  background-size: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;   
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border-radius: 20px;
+    border: 5px inset #b380ff;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 20px;
+    border: 5px inset #b380ff;
+
+.myButton {
+    background-color: #b380ff;
+    color: white;
+    border: soild;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.myButton:hover {
+    background-color: #944dff;
+}
+
+
+/* Website Links except the nav */
+
+a:link{
+  color: #c299ff;
+}
+a:visited{
+  color: #a366ff;
+}
+a:hover{
+  color: #6600ff;
+}
+a:active{
+  color: black;
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  border-top: 7px solid lightpink;
+  border-bottom: 10px solid lightpink;
+}
+
+h1, h2, h3{
+  font-family: "Shadows Into Light", cursive;
+}
+
+h1{
+  color: #ff808c;
+}
+
+h2, h3{
+  padding-left: 5px;
+  padding-top: 5px;
+  color: lightpink;
+  text-shadow: 2px 2px 2px black;
+}
+
+hr{
+  height: 3px;
+  width: auto;
+  background-color: lightpink;
+}
+
+header{
+   text-align: center;
+}
+nav{
+  text-align: center;
+  background-color: lightpink;
+  border-top: 3px solid  black;
+  border-bottom: 3px solid  black;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav at{
+  ext-decoration: none;
+}
+
+nav a:link{
+  color: white;
+}
+
+nav a:visited{
+  color: white;
+}
+
+nav a:hover{
+  color: #dddddd;
+}
+nav a:active{
+  color: black;
+}
+
+/*main*/
+main{
+  max-width: 1200px;
+  margin-top: 20px; 
+  margin-right: auto; 
+  margin-bottom: 20px; 
+  margin-left: auto;
+  padding: 10px;
+}
+.home-hero{
+  background-image:url(images/header.jpg);
+  height: 475px;
+  background-size: cover;
+  background-position: center;
+  color: #042837;
+  border-radius: 10px;
+}
+
+blockquote{
+background-color: #eeeeee;
+border-left: 10px solid gray;
+padding: 30px;
+border-radius: 8px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+footer{
+   text-align: center;
+}
+
+.fa{
+  font-size: 4em;
+  color: lightpink;
+}
+
+/* Website Links except the nav */
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}

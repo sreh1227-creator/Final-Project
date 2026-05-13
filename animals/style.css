@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+   background-color: #e6e6e6;
+   font-family: "Montserrat", sans-serif;
+   margin: 0;
+}
+
+h1, h2, h3{
+   font-family: "Shadows Into Light", cursive;
+}
+header{
+   text-align: center;
+}
+nav{
+  text-align: center;
+   background-color: #8c8c8c;
+   border-top: 3px solid  black;
+   border-bottom: 3px solid  black;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+nav li{
+  display: inline;
+  padding: 10px;
+}
+nav at{
+  ext-decoration: none;
+}
+
+nav a:link{
+  color: white;
+}
+
+nav a:visited{
+  color: white;
+}
+
+nav a:hover{
+  color: #dddddd;
+}
+nav a:active{
+  color: black;
+}
+
+.hero-image{
+   background-image: url(images/bird.jpg);
+   height: 400px;
+   background-size: cover;
+   border-radius: 20px;
+   border: 5px inset #cccccc;
+}
+
+.gallery .preview{
+    width: 100%;
+    height: auto;   
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+    border-radius: 20px;
+    border: 5px inset #cccccc;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+    border-radius: 20px;
+    border: 5px inset #cccccc;
+}
+
+
+/*main*/
+main{
+   width: 1200px;
+   margin-top: 20px; 
+   margin-right: auto; 
+   margin-bottom: 20px; 
+   margin-left: auto;
+   padding: 10px;
+}
+
+footer{
+  background-color: #cccccc;
+   margin-top: 20px; 
+   margin-right: auto; 
+   margin-bottom: 20px; 
+   margin-left: auto;
+   padding: 10px;
+}
+
+.fa{
+  font-size: 1em;
+  color: #666666;
+}
+
+.fa-camera{
+  font-size: 5em;
+  color: #bfbfbf;
+}
+
+/* Website Links except the nav */
+
+a:link{
+  color: #737373;
+}
+a:visited{
+  color: #737373;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
